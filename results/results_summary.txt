@@ -1,0 +1,39 @@
+
+======================================================================
+BRAIN TUMOR CLASSIFICATION - FINAL RESULTS SUMMARY
+======================================================================
+
+MODEL ARCHITECTURE:
+  Base Model: VGG16 (pre-trained on ImageNet)
+  Transfer Learning: Fine-tuning all layers
+  Total Parameters: 14,815,044
+  Trainable Parameters: 14,815,044
+
+DATASET:
+  Total Images: 3264
+  Training Samples: 2297
+  Validation Samples: 573
+  Test Samples: 394
+  Number of Classes: 4
+
+TRAINING CONFIGURATION:
+  Optimizer: Adam
+  Initial Learning Rate: 0.0001
+  Batch Size: 32
+  Epochs Trained: 27
+  Data Augmentation: Yes
+
+PERFORMANCE METRICS:
+  Test Accuracy: 0.7005 (70.05%)
+  Test Loss: 2.5700
+  Mean F1-Score: 0.6588
+  Mean Precision: 0.7810
+  Mean Recall: 0.6776
+
+PER-CLASS PERFORMANCE:
+  glioma_tumor        : F1=0.4341, Precision=0.9655, Recall=0.2800
+  meningioma_tumor    : F1=0.7721, Precision=0.6688, Recall=0.9130
+  no_tumor            : F1=0.7790, Precision=0.6420, Recall=0.9905
+  pituitary_tumor     : F1=0.6500, Precision=0.8478, Recall=0.5270
+
+======================================================================

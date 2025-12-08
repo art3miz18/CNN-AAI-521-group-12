@@ -37,19 +37,11 @@ models/*.pb
 *.h5
 *.hdf5
 
-# Results and outputs
-results/*.png
-results/*.jpg
-results/*.csv
-results/*.txt
 
 # Datasets (should be stored externally)
 archive/
 data/
 dataset/
-*.jpg
-*.jpeg
-*.png
 
 # Logs
 logs/
@@ -62,4 +54,3 @@ temp/
 
 # Keep directory structure
 !models/.gitkeep
-!results/.gitkeep
